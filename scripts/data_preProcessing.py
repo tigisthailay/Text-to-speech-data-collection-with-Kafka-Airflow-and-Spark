@@ -6,9 +6,9 @@ from datetime import datetime
 sys.path.insert(0, '../scripts/')
 sys.path.insert(0, '../logs/')
 sys.path.append(os.path.abspath(os.path.join('..')))
-from logger import Logger
+from logger import App_Logger
 
-app_logger = Logger("logs/data_preProcessing.log").get_app_logger()
+app_logger = App_Logger("logs/data_preProcessing.log").get_app_logger()
 
 
 class dataProcessor:
