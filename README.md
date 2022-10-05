@@ -31,6 +31,15 @@ Integration between tools towards the final goal
 </details>
 
 ### ___________________________________________________________________________________________
+# INSTALLATION
+ * git clone https://github.com/Amanuel3065/pharmaceutical_sales_prediction
+ * cd pharmaceutical_sales_prediction
+ * pip install -r requirements.txt **
+
+### ___________________________________________________________________________________________
+# Deployment link
+ *  
+### ___________________________________________________________________________________________
 ## Contributors
 - [**Tegisty Hailay (Lead)**](https://github.com/tigisthailay)
 - [**Kibatu Woldemariam**](https://github.com/kebishaa)
