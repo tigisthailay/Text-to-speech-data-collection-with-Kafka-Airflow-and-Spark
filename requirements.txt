@@ -1,0 +1,4 @@
+dvc==2.10.2                   
+dvc-render==0.0.5        
+dvclive==0.8.1 
+dbt-postgres==1.0.0
