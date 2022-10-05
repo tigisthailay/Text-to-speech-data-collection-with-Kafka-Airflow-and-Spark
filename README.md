@@ -22,7 +22,7 @@ Ready-made Amharic data collected from different sources [here](https://drive.go
 
 </details>
 <details close>
-<summary></b>Technology stack<b></summary>
+<summary><b>Technology stack</b></summary>
 <br>
 Integration between tools towards the final goal
 
