@@ -1,6 +1,6 @@
 # Data Engineering: text-to-speech data collection with Kafka, Airflow, and Spark
 
-<img title="kafka" alt="Alt text" src="/images/collect.png" width= "200">
+<img title="kafka" alt="Alt text" src="/images/collect.png" width= "1000">
 
 
 ## Business Need
