@@ -19,10 +19,10 @@ class dataCleaner:
         """
         self.logger = App_Logger(
             "../logs/data_cleaning.log").get_app_logger()
-        if(deep):
+        if (deep):
             self.df = df.copy(deep=True)
         else:
-            self.df = df 
+            self.df = df
 
     def remove_unwanted_columns(self, columns: list) -> pd.DataFrame:
         """
@@ -64,7 +64,6 @@ class dataCleaner:
             print("Failed to separate the date-time column")
 
     def separate_date_column(self, date_column: str, drop_date=True) -> pd.DataFrame:
-        
         """
         divides the date column in YYYY-MM-DD to separate year, month and day 
         """
@@ -77,7 +76,7 @@ class dataCleaner:
             self.df.insert(date_index + 3, 'Day',
                            self.df[date_column].apply(lambda x: x.date().day))
 
-            if(drop_date):
+            if (drop_date):
                 self.df = self.df.drop(date_column, axis=1)
         except:
             print("Failed to separate the date to its components")
@@ -96,11 +95,11 @@ class dataCleaner:
     def add_season_col(self, month_col: str) -> None:
         # helper function
         def get_season(month: int):
-            if(month <= 2 or month == 12):
+            if (month <= 2 or month == 12):
                 return 'Winter'
-            elif(month > 2 and month <= 5):
+            elif (month > 2 and month <= 5):
                 return 'Spring'
-            elif(month > 5 and month <= 8):
+            elif (month > 5 and month <= 8):
                 return 'Summer'
             else:
                 return 'Autumn'
@@ -180,7 +179,7 @@ class dataCleaner:
         df_skew_data = self.df[missing_cols]
         df_skew = df_skew_data.skew(axis=0, skipna=True)
         for i in df_skew.index:
-            if(df_skew[i] < acceptable_skewness and df_skew[i] > (acceptable_skewness * -1)):
+            if (df_skew[i] < acceptable_skewness and df_skew[i] > (acceptable_skewness * -1)):
                 value = self.df[i].mean()
                 self.df[i].fillna(value, inplace=True)
             else:
@@ -221,14 +220,14 @@ class dataCleaner:
         pd.DataFrame
         """
         for col in missing_cols:
-            if(ffill == True and bfill == True):
+            if (ffill == True and bfill == True):
                 self.df[col].fillna(method='ffill', inplace=True)
                 self.df[col].fillna(method='bfill', inplace=True)
 
-            elif(ffill == True and bfill == False):
+            elif (ffill == True and bfill == False):
                 self.df[col].fillna(method='ffill', inplace=True)
 
-            elif(ffill == False and bfill == True):
+            elif (ffill == False and bfill == True):
                 self.df[col].fillna(method='bfill', inplace=True)
 
             else:
@@ -337,7 +336,7 @@ class dataCleaner:
         pd.DataFrame
         """
         try:
-            assert(len(columns) == len(new_name))
+            assert (len(columns) == len(new_name))
             for index, col in enumerate(columns):
                 self.df[col] = func(self.df[col])
                 self.df.rename(columns={col: new_name[index]}, inplace=True)
@@ -363,12 +362,12 @@ class dataCleaner:
         optimizable = ['float64', 'int64']
         try:
             for col in data_types.index:
-                if(data_types[col] in optimizable):
-                    if(data_types[col] == 'float64'):
+                if (data_types[col] in optimizable):
+                    if (data_types[col] == 'float64'):
                         # downcasting a float column
                         self.df[col] = pd.to_numeric(
                             self.df[col], downcast='float')
-                    elif(data_types[col] == 'int64'):
+                    elif (data_types[col] == 'int64'):
                         # downcasting an integer column
                         self.df[col] = pd.to_numeric(
                             self.df[col], downcast='unsigned')
