@@ -1,6 +1,6 @@
 # Data Engineering: text-to-speech data collection with Kafka, Airflow, and Spark
 
-![](images/collect.png)
+# <img title="kafka" alt="Alt text" src="/images/collect.png">
 
 ## Business Need
 Recognizing the value of large data sets for speech-t0-text data sets, and seeing the opportunity that there are many text corpuses for Amharic and Swahili languages, this project aims to design and build a robust, large scale, fault tolerant, highly available Kafka cluster that can be used to post a sentence and receive an audio file. 
