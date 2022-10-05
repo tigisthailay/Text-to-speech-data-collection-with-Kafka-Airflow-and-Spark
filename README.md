@@ -11,8 +11,10 @@ By the end of this project, we will produce a tool that can be deployed to proce
 The purpose of the project is to build a data engineering pipeline that allows recording millions of Amharic and Swahili speakers reading digital texts in-app and web platforms. There are a number of large text corpora we will use, but for the purpose of testing the backend development, we can use the recently released Amharic news text classification dataset with baseline performance dataset: [IsraelAbebe/An-Amharic-News-Text-classification-Dataset: An Amharic News Text classification Dataset (github.com)](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset).
 ## Summary of tools used in the projects
 - Apache Spark – A fast and general engine for large-scale data processing. It is 100 times faster than Hadoop MapReduce in memory and 10x faster on disk. Learn more about Apache Spark here
+- Apache Airflow-DAGs are defined as Python code. Airflow executes all Python code in the dags-folder and loads any DAG objects that appear in globals(). The simplest way of creating a DAG is to write it as a static Python file. However, sometimes manually writing DAGs isn't practical. Maybe you have hundreds or thousands of DAGs that do similar things with just a parameter changing between them. Or maybe you need a set of DAGs to load tables, but don't want to manually update DAGs every time those tables change. In these cases, and others, it can make more sense to dynamically generate DAGs.
 - Python – Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Learn more about Python here
 - Kafka – A high-throughput, distributed, publish-subscribe messaging system. Learn more about Kafka here
+- React-
 
 Read a brief description of the data [here](https://arxiv.org/pdf/2103.05639.pdf).
 
