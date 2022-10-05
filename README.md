@@ -15,6 +15,11 @@ Read a brief description of the data [here](https://arxiv.org/pdf/2103.05639.pdf
 ### Alternative data 
 Ready-made Amharic data collected from different sources [here](https://drive.google.com/file/d/1_YLX27TdACjIF1iu8e3t-kkTb1qBlLkO/view?usp=sharing).
 
+# Technology stack
+
+
+
+### ___________________________________________________________________________________________
 ## Contributors
 - **Tegisty Hailay (Lead)**
 - **Kibatu Woldemariam**
