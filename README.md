@@ -14,6 +14,10 @@ By the end of this project, we will produce a tool that can be deployed to proce
 <summary><b>Data</b></summary>
 <br>
 The purpose of the project is to build a data engineering pipeline that allows recording millions of Amharic and Swahili speakers reading digital texts in-app and web platforms. There are a number of large text corpora we will use, but for the purpose of testing the backend development, we can use the recently released Amharic news text classification dataset with baseline performance dataset: [IsraelAbebe/An-Amharic-News-Text-classification-Dataset: An Amharic News Text classification Dataset (github.com)](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset).
+## Summary of tools used in the projects
+- Apache Spark – A fast and general engine for large-scale data processing. It is 100 times faster than Hadoop MapReduce in memory and 10x faster on disk. Learn more about Apache Spark here
+- Python – Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Learn more about Python here
+- Kafka – A high-throughput, distributed, publish-subscribe messaging system. Learn more about Kafka here
 
 Read a brief description of the data [here](https://arxiv.org/pdf/2103.05639.pdf).
 
@@ -31,6 +35,7 @@ Integration between tools towards the final goal
 </details>
 
 ### ___________________________________________________________________________________________
+
 ## INSTALLATION
  * git clone https://github.com/Amanuel3065/pharmaceutical_sales_prediction
  * cd pharmaceutical_sales_prediction
