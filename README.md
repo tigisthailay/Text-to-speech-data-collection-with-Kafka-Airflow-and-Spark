@@ -42,7 +42,7 @@ Integration between tools towards the final goal
  * pip install -r requirements.txt **
  
  ## SET UP DOCKER CONTAINERS
- ** Set up Kafka and Zookeeper
+ **Set up Kafka and Zookeeper  
  ```docker-compose -f docker-compose.yml up -d```
 
 
