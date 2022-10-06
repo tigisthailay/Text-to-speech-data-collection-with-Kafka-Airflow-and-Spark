@@ -26,7 +26,7 @@ Ready-made Amharic data collected from different sources [here](https://drive.go
 ### ___________________________________________________________________________________________
 
 ## Workflow
-![](images/Workflow.png)
+![](images/workflow.png)
 
 ## Contributors
 - **Tegisty Hailay (Lead)**
