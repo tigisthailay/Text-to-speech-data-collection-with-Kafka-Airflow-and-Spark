@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-//import RecorderControls from '../recorder-controls';
-//import RecordingsList from "../../handlers/recordings-list";
+import RecorderControls from '../recorder-controls';
+import RecordingsList from "../handlers/recordings-list";
 import useRecorder from "../../hooks/useRecorder";
 
 import axios from 'axios';
