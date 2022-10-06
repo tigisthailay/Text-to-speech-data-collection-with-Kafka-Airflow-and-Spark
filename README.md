@@ -43,10 +43,10 @@ Integration between tools towards the final goal
  
  ## SET UP DOCKER CONTAINERS
  **Set up Kafka and Zookeeper  
- ```docker-compose -f docker-compose.yml up -d
+ ```docker-compose -f docker-compose.yml up -d```
  
  **Set up Spark container
- ```docker-compose -f docker-compose.yml up -d
+ ```docker-compose -f docker-compose.yml up -d```
  
 
 
