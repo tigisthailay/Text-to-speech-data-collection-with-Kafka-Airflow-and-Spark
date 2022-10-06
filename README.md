@@ -37,8 +37,8 @@ Integration between tools towards the final goal
 ### ___________________________________________________________________________________________
 
 ## INSTALLATION
- * git clone https://github.com/Amanuel3065/pharmaceutical_sales_prediction
- * cd pharmaceutical_sales_prediction
+ * git clone https://github.com/Choquet-Bruhat/Text-to-speech-data-collection-with-Kafka-Airflow-and-Spark
+ * cd -------------
  * pip install -r requirements.txt **
 
 ### ___________________________________________________________________________________________
