@@ -40,6 +40,11 @@ Integration between tools towards the final goal
  * git clone https://github.com/Choquet-Bruhat/Text-to-speech-data-collection-with-Kafka-Airflow-and-Spark
  * cd -------------
  * pip install -r requirements.txt **
+ 
+ ## SET UP DOCKER CONTAINERS
+ ** Set up Kafka and Zookeeper
+ ```docker-compose -f docker-compose.yml up -d```
+
 
 ### ___________________________________________________________________________________________
 ## DEPLOYMENT LINK
