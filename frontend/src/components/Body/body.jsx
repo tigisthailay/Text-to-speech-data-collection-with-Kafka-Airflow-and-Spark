@@ -76,7 +76,7 @@ const Body = () => {
   return (
     <>
       {/* Get text */}
-      <div className="" id="">
+      <div className="body-part" id="">
         <section>
           <form onClick={handleClick}>
             <div className="">
