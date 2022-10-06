@@ -1,6 +1,10 @@
-// Other imports
-
 import React, {useState} from 'react';
+//import RecorderControls from '../recorder-controls';
+//import RecordingsList from "../../handlers/recordings-list";
+import useRecorder from "../../hooks/useRecorder";
+
+import axios from 'axios';
+
 const Body = () =>{
     const [userData, setUserData] = useState({});
     const [file, setFile] = useState();
@@ -8,8 +12,8 @@ const Body = () =>{
         record: true,
         send: false,
     });
-    // const {recorderState, ...handlers} = useRecorder();
-    // const{ audio } = recorderState;
+    const {recorderState, ...handlers} = useRecorder();
+    const{ audio } = recorderState;
 
 
 const handleShowSendComponent = () => {
@@ -63,6 +67,7 @@ return (
         </section>
         <section>
           <div>
+            <button className="" onClick={handleShowRecordComponent}>Insert File</button>
             <button className="" onClick={handleShowSendComponent}>RECORD</button>
           </div>
           <div>
@@ -95,7 +100,9 @@ return (
             <div className="" />
             <section className="">
             <h3>Readout Loud</h3>
-              
+                <div className="recorder-container">
+                    
+                </div>
             </section>
           </div>
         )}{" "}
