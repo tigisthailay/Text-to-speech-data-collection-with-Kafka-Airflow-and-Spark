@@ -37,9 +37,22 @@ Integration between tools towards the final goal
 ### ___________________________________________________________________________________________
 
 ## INSTALLATION
- * git clone https://github.com/Amanuel3065/pharmaceutical_sales_prediction
- * cd pharmaceutical_sales_prediction
+ * git clone https://github.com/Choquet-Bruhat/Text-to-speech-data-collection-with-Kafka-Airflow-and-Spark
+ * cd -------------
  * pip install -r requirements.txt **
+ 
+ ## SET UP DOCKER CONTAINERS
+ **Set up Kafka and Zookeeper**
+ ```
+ docker-compose -f docker-compose.yml up -d
+ ```
+ 
+ **Set up Spark container**
+ ```
+ docker-compose -f docker-compose_Spark.yml up -d
+ ```
+ 
+
 
 ### ___________________________________________________________________________________________
 ## DEPLOYMENT LINK
