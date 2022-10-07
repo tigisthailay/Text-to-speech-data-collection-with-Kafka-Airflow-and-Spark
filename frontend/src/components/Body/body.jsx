@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 //import RecordingsList from "../../handlers/recordings-list";
 import useRecorder from "../../hooks/useRecorder";
 
-import axios from 'axios';
+//import axios from 'axios';
 
 const Body = () =>{
     const [userData, setUserData] = useState({});
@@ -57,7 +57,7 @@ function handleClick(event) {
 return (
     <>
       {/* Get text */}
-      <div className="">
+      <div className="body-container">
         <section>
           <form onClick={handleClick}>
             <div className="">
