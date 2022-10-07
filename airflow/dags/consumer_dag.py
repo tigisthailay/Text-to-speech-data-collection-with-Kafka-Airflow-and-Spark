@@ -32,7 +32,7 @@ def consumer_from_kafka(**context):
     messages = []
     c.subscribe([TOPIC])
     running = True
-    # logger.info("Consumer started")
+    logger.info("Consumer started")
     poll_timeout = 0
     while running:
         msg = c.poll(1.0)
@@ -44,9 +44,9 @@ def consumer_from_kafka(**context):
         if msg is None:
             poll_timeout = poll_timeout + 1
             print("No message received", poll_timeout)
-            # logger.debug("No message received")
+            logger.debug("No message received")
         elif msg.error() is not None:
-            # logger.error(msg.error())
+            logger.error(msg.error())
             running = False
 
         else:
@@ -63,3 +63,29 @@ def consumer_from_kafka(**context):
 def insert_to_s3(**context):
     #fill the script to insert to S3
     print("insert_to_s3")
+
+with DAG(
+    dag_id="consumer_dag",
+    schedule_interval="@daily",
+    default_args={
+        "owner": "airflow",
+        "retries": 3,
+        "retry_delay": timedelta(minutes=5),
+        "start_date": datetime(2021, 1, 1),
+    },
+    catchup=False,
+) as f:
+
+    consumer_from_kafka = PythonOperator(
+        task_id="consumer_from_kafka",
+        python_callable=consumer_from_kafka,
+        provide_context=True,
+    )
+
+    insert_to_s3 = PythonOperator(
+        task_id="insert_to_s3",
+        python_callable=insert_to_s3,
+        provide_context=True,
+    )
+
+consumer_from_kafka >> insert_to_s3
