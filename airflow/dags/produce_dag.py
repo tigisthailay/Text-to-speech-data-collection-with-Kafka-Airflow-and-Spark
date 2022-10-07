@@ -49,3 +49,5 @@ with DAG(
         task_id='kafka_to_s3', 
         python_callable=kafka_to_s3, 
         dag=dag)
+
+    src_s3
