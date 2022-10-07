@@ -1,11 +1,9 @@
 import json
-from datetime import datetime
-
 import boto3
 import pandas as pd
+
 from flask import Flask, jsonify, make_response, request
 from flask_cors import CORS
-
 from kafka import KafkaProducer
 
 # from confluent_kafka import Consumer, Producer
@@ -18,7 +16,6 @@ BROKER_URL = ["b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092",
               "b-2.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092"]
 TOPIC = "null"
 
-# kafka_admin = AdminClient({"bootstrap.servers": BROKER_URL})
 
 @app.route("/gettext", methods=["GET"])
 def get_text():
@@ -48,9 +45,8 @@ def get_text():
             ),
             400,
         )
-    # p = Producer({"bootstrap.servers": BROKER_URL})
-    # p.produce(TOPIC, encode(single_random_text.to_dict()))
-    # p.flush()
+
+
     producer = KafkaProducer(value_serializer=lambda v: json.dumps(v).encode("utf-8"))
     producer.send("null", {"text": single_random_text[0].strip()})
 
