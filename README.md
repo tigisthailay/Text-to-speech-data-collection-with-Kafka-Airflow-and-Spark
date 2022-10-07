@@ -37,8 +37,8 @@ Integration between tools towards the final goal
 ### ___________________________________________________________________________________________
 
 ## INSTALLATION
- * git clone https://github.com/Choquet-Bruhat/Text-to-speech-data-collection-with-Kafka-Airflow-and-Spark
- * cd -------------
+ * git clone https://github.com/Choquet-Bruhat Text-to-speech-data-collection-with-Kafka-Airflow-and-Spark
+ * cd Text-to-speech-data-collection-with-Kafka-Airflow-and-Spark
  * pip install -r requirements.txt **
  
  ## SET UP DOCKER CONTAINERS
