@@ -1,8 +1,12 @@
 .header-content {
     flex: 1;
-    display: flex;
+    display: contents;
     justify-content: center;
+<<<<<<< HEAD
+    align-items: center;
+=======
     align-items: align-center;
+>>>>>>> 3339a4c00a0c69fc4935dc5e1da57b146a2972d1
     flex-direction: column;
     margin-right: 5rem;
 }

@@ -2,8 +2,12 @@ import RecorderControls from "../recorder-controls";
 import RecordingsList from "../recordings-list/";
 import useRecorder from "../../hooks/useRecorder";
 
+<<<<<<< HEAD
+//import axios from 'axios';
+=======
 import axios from "axios";
 import React, { useState } from "react";
+>>>>>>> 3339a4c00a0c69fc4935dc5e1da57b146a2972d1
 
 const Body = () => {
   const [userData, setUserData] = useState({});
@@ -76,7 +80,11 @@ const Body = () => {
   return (
     <>
       {/* Get text */}
+<<<<<<< HEAD
+      <div className="body-container">
+=======
       <div className="body-part" id="">
+>>>>>>> 3339a4c00a0c69fc4935dc5e1da57b146a2972d1
         <section>
           <form onClick={handleClick}>
             <div className="">
