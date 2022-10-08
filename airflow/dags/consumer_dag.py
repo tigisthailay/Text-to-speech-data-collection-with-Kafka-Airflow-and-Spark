@@ -8,6 +8,7 @@ import json
 from kafka import KafkaConsumer, KafkaProducer
 #from confluent_kafka.admin import AdminClient, NewTopic
 from kafka.admin import KafkaAdminClient, NewTopic
+import logger
 
 
 
@@ -64,6 +65,17 @@ def consumer_from_kafka(**context):
 
 def insert_to_s3(**context):
     #fill the script to insert to S3
+    print("insert_to_s3")
+    data = context.get("ti").xcom_pull(key="data")
+    print("data is {}".format(data))
+    print("insert_to_s3")
+    s3 = boto3.client("s3")
+    bucket = "10ac-batch-6/notebooks"
+    # format name with current timestamp
+    json_file_name = "json_file_" + datetime.now().strftime("%Y%m%d-%H%M%S") + ".json"
+    s3object = s3.Object(bucket, json_file_name)
+    s3object.put(Body=(bytes(json.dumps(data).encode("UTF-8"))))
+    print("Inserted to S3")
     print("insert_to_s3")
 
 with DAG(
