@@ -1,6 +1,6 @@
 from datetime import timedelta
 from airflow import DAG
-from airflow import PythonOperator
+from airflow.operators.python import PythonOperator
 from datetime import datetime
 import pandas as pd
 import boto3
@@ -8,6 +8,8 @@ import json
 from kafka import KafkaConsumer, KafkaProducer
 #from confluent_kafka.admin import AdminClient, NewTopic
 from kafka.admin import KafkaAdminClient, NewTopic
+
+
 
 BROKER_URL = ["b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092",
               "b-2.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092"]
