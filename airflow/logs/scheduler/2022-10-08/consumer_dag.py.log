@@ -418,3 +418,805 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'kafka'
 [2022-10-08T12:28:15.702+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
 [2022-10-08T12:28:15.719+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:28:45.830+0000] {processor.py:156} INFO - Started process (PID=1059) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:28:45.831+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:28:45.831+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:28:45.831+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:28:46.063+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:28:46.062+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:28:46.064+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:28:46.080+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.252 seconds
+[2022-10-08T12:29:16.194+0000] {processor.py:156} INFO - Started process (PID=1092) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:29:16.195+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:29:16.196+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:29:16.196+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:29:16.419+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:29:16.418+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:29:16.420+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:29:16.436+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.244 seconds
+[2022-10-08T12:29:46.551+0000] {processor.py:156} INFO - Started process (PID=1125) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:29:46.552+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:29:46.552+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:29:46.552+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:29:46.779+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:29:46.778+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:29:46.779+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:29:46.796+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.247 seconds
+[2022-10-08T12:30:16.909+0000] {processor.py:156} INFO - Started process (PID=1149) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:30:16.910+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:30:16.911+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:30:16.911+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:30:17.140+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:30:17.139+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:30:17.141+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:30:17.157+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.250 seconds
+[2022-10-08T12:30:47.268+0000] {processor.py:156} INFO - Started process (PID=1182) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:30:47.269+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:30:47.270+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:30:47.270+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:30:47.494+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:30:47.493+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:30:47.494+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:30:47.511+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.245 seconds
+[2022-10-08T12:31:17.622+0000] {processor.py:156} INFO - Started process (PID=1215) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:17.623+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:31:17.624+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:31:17.624+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:17.854+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:31:17.853+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:31:17.854+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:17.871+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.251 seconds
+[2022-10-08T12:31:47.983+0000] {processor.py:156} INFO - Started process (PID=1248) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:47.984+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:31:47.984+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:31:47.984+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:48.217+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:31:48.215+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:31:48.217+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:48.234+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.254 seconds
+[2022-10-08T12:31:55.012+0000] {processor.py:156} INFO - Started process (PID=1254) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:55.013+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:31:55.013+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:31:55.013+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:55.244+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:31:55.242+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:31:55.244+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:31:55.260+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.251 seconds
+[2022-10-08T12:32:14.345+0000] {processor.py:156} INFO - Started process (PID=1278) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:14.346+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:32:14.346+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:32:14.346+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:14.574+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:32:14.572+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 10, in <module>
+    from kafka.admin import KafkaAdminClient, NewTopic
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:32:14.574+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:14.590+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.247 seconds
+[2022-10-08T12:32:44.705+0000] {processor.py:156} INFO - Started process (PID=1311) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:44.706+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:32:44.707+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:32:44.707+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:44.943+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:32:44.942+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 10, in <module>
+    from kafka.admin import KafkaAdminClient, NewTopic
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:32:44.944+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:44.960+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.257 seconds
+[2022-10-08T12:32:47.720+0000] {processor.py:156} INFO - Started process (PID=1317) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:47.720+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:32:47.721+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:32:47.721+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:47.959+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:32:47.958+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:32:47.960+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:32:47.977+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.260 seconds
+[2022-10-08T12:33:18.098+0000] {processor.py:156} INFO - Started process (PID=1350) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:33:18.099+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:33:18.099+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:33:18.099+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:33:18.331+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:33:18.330+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:33:18.331+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:33:18.347+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.251 seconds
+[2022-10-08T12:33:48.457+0000] {processor.py:156} INFO - Started process (PID=1383) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:33:48.458+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:33:48.459+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:33:48.459+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:33:48.693+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:33:48.692+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:33:48.693+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:33:48.709+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.255 seconds
+[2022-10-08T12:34:18.821+0000] {processor.py:156} INFO - Started process (PID=1407) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:34:18.822+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:34:18.822+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:34:18.822+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:34:19.053+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:34:19.052+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:34:19.054+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:34:19.070+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.251 seconds
+[2022-10-08T12:34:49.182+0000] {processor.py:156} INFO - Started process (PID=1440) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:34:49.183+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:34:49.184+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:34:49.184+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:34:49.411+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:34:49.410+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:34:49.412+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:34:49.428+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:35:19.537+0000] {processor.py:156} INFO - Started process (PID=1473) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:35:19.538+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:35:19.538+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:35:19.538+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:35:19.767+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:35:19.766+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:35:19.768+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:35:19.784+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.249 seconds
+[2022-10-08T12:35:49.895+0000] {processor.py:156} INFO - Started process (PID=1506) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:35:49.896+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:35:49.896+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:35:49.896+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:35:50.132+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:35:50.131+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:35:50.132+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:35:50.149+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.256 seconds
+[2022-10-08T12:36:20.260+0000] {processor.py:156} INFO - Started process (PID=1530) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:36:20.261+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:36:20.262+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:36:20.261+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:36:20.490+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:36:20.488+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:36:20.490+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:36:20.506+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:36:44.339+0000] {processor.py:156} INFO - Started process (PID=1554) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:36:44.340+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:36:44.340+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:36:44.340+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:36:44.574+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:36:44.572+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:36:44.574+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:36:44.591+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.254 seconds
+[2022-10-08T12:37:14.702+0000] {processor.py:156} INFO - Started process (PID=1587) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:37:14.703+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:37:14.704+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:37:14.703+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:37:14.930+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:37:14.929+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:37:14.930+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:37:14.946+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.246 seconds
+[2022-10-08T12:37:45.054+0000] {processor.py:156} INFO - Started process (PID=1620) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:37:45.055+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:37:45.056+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:37:45.056+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:37:45.284+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:37:45.283+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:37:45.285+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:37:45.302+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.250 seconds
+[2022-10-08T12:38:15.411+0000] {processor.py:156} INFO - Started process (PID=1653) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:38:15.412+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:38:15.412+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:38:15.412+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:38:15.637+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:38:15.636+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:38:15.637+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:38:15.653+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.244 seconds
+[2022-10-08T12:38:45.761+0000] {processor.py:156} INFO - Started process (PID=1677) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:38:45.762+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:38:45.762+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:38:45.762+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:38:45.987+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:38:45.986+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:38:45.987+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:38:46.004+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.245 seconds
+[2022-10-08T12:39:16.145+0000] {processor.py:156} INFO - Started process (PID=1710) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:39:16.146+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:39:16.146+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:39:16.146+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:39:16.376+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:39:16.375+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:39:16.377+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:39:16.393+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.251 seconds
+[2022-10-08T12:39:46.503+0000] {processor.py:156} INFO - Started process (PID=1743) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:39:46.504+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:39:46.505+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:39:46.505+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:39:46.730+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:39:46.729+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:39:46.731+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:39:46.746+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.245 seconds
+[2022-10-08T12:40:16.855+0000] {processor.py:156} INFO - Started process (PID=1776) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:40:16.856+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:40:16.857+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:40:16.857+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:40:17.085+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:40:17.084+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:40:17.086+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:40:17.102+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.249 seconds
+[2022-10-08T12:40:47.217+0000] {processor.py:156} INFO - Started process (PID=1800) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:40:47.218+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:40:47.218+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:40:47.218+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:40:47.446+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:40:47.445+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:40:47.446+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:40:47.462+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:41:17.573+0000] {processor.py:156} INFO - Started process (PID=1833) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:41:17.574+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:41:17.574+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:41:17.574+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:41:17.807+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:41:17.806+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:41:17.807+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:41:17.823+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.253 seconds
+[2022-10-08T12:41:47.933+0000] {processor.py:156} INFO - Started process (PID=1866) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:41:47.934+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:41:47.935+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:41:47.934+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:41:48.161+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:41:48.160+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:41:48.162+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:41:48.178+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.247 seconds
+[2022-10-08T12:42:18.287+0000] {processor.py:156} INFO - Started process (PID=1899) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:42:18.288+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:42:18.288+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:42:18.288+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:42:18.518+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:42:18.517+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:42:18.518+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:42:18.535+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.250 seconds
+[2022-10-08T12:42:48.645+0000] {processor.py:156} INFO - Started process (PID=1923) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:42:48.646+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:42:48.647+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:42:48.647+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:42:48.873+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:42:48.872+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:42:48.873+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:42:48.889+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.247 seconds
+[2022-10-08T12:43:18.997+0000] {processor.py:156} INFO - Started process (PID=1956) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:43:18.998+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:43:18.999+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:43:18.999+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:43:19.225+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:43:19.224+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:43:19.225+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:43:19.241+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.247 seconds
+[2022-10-08T12:43:49.348+0000] {processor.py:156} INFO - Started process (PID=1989) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:43:49.349+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:43:49.349+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:43:49.349+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:43:49.575+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:43:49.574+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:43:49.576+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:43:49.591+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.246 seconds
+[2022-10-08T12:44:19.702+0000] {processor.py:156} INFO - Started process (PID=2022) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:44:19.703+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:44:19.704+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:44:19.703+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:44:19.931+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:44:19.930+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:44:19.931+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:44:19.948+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:44:50.054+0000] {processor.py:156} INFO - Started process (PID=2046) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:44:50.055+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:44:50.055+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:44:50.055+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:44:50.280+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:44:50.279+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:44:50.280+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:44:50.296+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.245 seconds
+[2022-10-08T12:45:20.406+0000] {processor.py:156} INFO - Started process (PID=2079) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:45:20.407+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:45:20.407+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:45:20.407+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:45:20.634+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:45:20.633+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:45:20.634+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:45:20.650+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.247 seconds
+[2022-10-08T12:45:50.758+0000] {processor.py:156} INFO - Started process (PID=2112) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:45:50.759+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:45:50.760+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:45:50.759+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:45:50.986+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:45:50.985+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:45:50.986+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:45:51.002+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.246 seconds
+[2022-10-08T12:46:21.113+0000] {processor.py:156} INFO - Started process (PID=2145) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:46:21.114+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:46:21.115+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:46:21.115+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:46:21.345+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:46:21.344+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:46:21.345+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:46:21.361+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.251 seconds
+[2022-10-08T12:46:51.473+0000] {processor.py:156} INFO - Started process (PID=2169) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:46:51.473+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:46:51.474+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:46:51.474+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:46:51.697+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:46:51.696+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:46:51.697+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:46:51.713+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.243 seconds
+[2022-10-08T12:47:21.826+0000] {processor.py:156} INFO - Started process (PID=2202) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:47:21.827+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:47:21.827+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:47:21.827+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:47:22.055+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:47:22.054+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:47:22.055+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:47:22.072+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:47:52.183+0000] {processor.py:156} INFO - Started process (PID=2235) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:47:52.184+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:47:52.184+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:47:52.184+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:47:52.412+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:47:52.411+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:47:52.413+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:47:52.429+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:48:22.539+0000] {processor.py:156} INFO - Started process (PID=2268) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:48:22.540+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:48:22.541+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:48:22.540+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:48:22.768+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:48:22.766+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:48:22.768+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:48:22.784+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.248 seconds
+[2022-10-08T12:48:52.890+0000] {processor.py:156} INFO - Started process (PID=2293) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:48:52.891+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:48:52.891+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:48:52.891+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:48:53.116+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:48:53.115+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:48:53.117+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:48:53.133+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.246 seconds
+[2022-10-08T12:49:23.239+0000] {processor.py:156} INFO - Started process (PID=2326) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:49:23.240+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:49:23.240+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:49:23.240+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:49:23.466+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:49:23.465+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:49:23.466+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:49:23.482+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.246 seconds
+[2022-10-08T12:49:53.592+0000] {processor.py:156} INFO - Started process (PID=2359) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:49:53.593+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:49:53.594+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:49:53.594+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:49:53.823+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:49:53.822+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ModuleNotFoundError: No module named 'kafka'
+[2022-10-08T12:49:53.824+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:49:53.840+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.250 seconds
+[2022-10-08T12:50:35.228+0000] {processor.py:156} INFO - Started process (PID=193) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:50:35.229+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:50:35.229+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:50:35.229+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:50:36.146+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:50:36.145+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ImportError: cannot import name 'KafkaProducercd' from 'kafka' (/home/airflow/.local/lib/python3.7/site-packages/kafka/__init__.py)
+[2022-10-08T12:50:36.146+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:50:36.161+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.935 seconds
+[2022-10-08T12:51:06.291+0000] {processor.py:156} INFO - Started process (PID=218) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:06.292+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:51:06.292+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:06.292+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:06.617+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:06.617+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ImportError: cannot import name 'KafkaProducercd' from 'kafka' (/home/airflow/.local/lib/python3.7/site-packages/kafka/__init__.py)
+[2022-10-08T12:51:06.618+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:06.632+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.343 seconds
+[2022-10-08T12:51:36.744+0000] {processor.py:156} INFO - Started process (PID=251) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:36.745+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:51:36.746+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:36.746+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:37.073+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:37.072+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer_dag.py", line 8, in <module>
+    from kafka import KafkaConsumer, KafkaProducercd
+ImportError: cannot import name 'KafkaProducercd' from 'kafka' (/home/airflow/.local/lib/python3.7/site-packages/kafka/__init__.py)
+[2022-10-08T12:51:37.073+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:37.088+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.346 seconds
+[2022-10-08T12:51:43.771+0000] {processor.py:156} INFO - Started process (PID=266) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:43.772+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:51:43.772+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:43.772+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:44.130+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:51:44.285+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:44.285+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:consumer_dag
+[2022-10-08T12:51:44.292+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:44.292+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:consumer_dag
+[2022-10-08T12:51:44.297+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:44.297+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:consumer_dag
+[2022-10-08T12:51:44.298+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:44.297+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:51:44.308+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:44.307+0000] {dag.py:2594} INFO - Creating ORM DAG for consumer_dag
+[2022-10-08T12:51:44.317+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:51:44.317+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:51:44.331+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.562 seconds
+[2022-10-08T12:52:14.447+0000] {processor.py:156} INFO - Started process (PID=299) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:52:14.448+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:52:14.448+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:52:14.448+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:52:14.785+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:52:14.843+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:52:14.843+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:52:14.863+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:52:14.862+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:52:14.877+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.434 seconds
+[2022-10-08T12:52:44.993+0000] {processor.py:156} INFO - Started process (PID=323) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:52:44.994+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:52:44.995+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:52:44.995+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:52:45.328+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:52:45.356+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:52:45.356+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:52:45.375+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:52:45.375+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:52:45.388+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.397 seconds
+[2022-10-08T12:53:15.504+0000] {processor.py:156} INFO - Started process (PID=356) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:53:15.505+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:53:15.505+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:53:15.505+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:53:15.851+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:53:15.880+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:53:15.880+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:53:15.900+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:53:15.900+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:53:15.914+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.413 seconds
+[2022-10-08T12:53:46.031+0000] {processor.py:156} INFO - Started process (PID=389) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:53:46.031+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:53:46.032+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:53:46.032+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:53:46.370+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:53:46.397+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:53:46.397+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:53:46.418+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:53:46.417+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:53:46.430+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.402 seconds
+[2022-10-08T12:54:16.549+0000] {processor.py:156} INFO - Started process (PID=422) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:54:16.550+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:54:16.551+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:54:16.550+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:54:16.889+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:54:16.916+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:54:16.916+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:54:16.936+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:54:16.936+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:54:16.949+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.402 seconds
+[2022-10-08T12:54:47.065+0000] {processor.py:156} INFO - Started process (PID=446) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:54:47.066+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:54:47.066+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:54:47.066+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:54:47.396+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:54:47.424+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:54:47.424+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:54:47.443+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:54:47.443+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:54:47.456+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.393 seconds
+[2022-10-08T12:55:17.568+0000] {processor.py:156} INFO - Started process (PID=479) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:55:17.569+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:55:17.570+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:55:17.570+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:55:17.911+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:55:17.939+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:55:17.939+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:55:17.959+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:55:17.959+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:55:17.972+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.406 seconds
+[2022-10-08T12:55:48.088+0000] {processor.py:156} INFO - Started process (PID=511) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:55:48.089+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:55:48.089+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:55:48.089+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:55:48.425+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:55:48.453+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:55:48.453+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:55:48.473+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:55:48.473+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:55:48.487+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.401 seconds
+[2022-10-08T12:56:18.601+0000] {processor.py:156} INFO - Started process (PID=544) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:56:18.602+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:56:18.602+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:56:18.602+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:56:18.864+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:56:18.895+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:56:18.894+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:56:18.917+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:56:18.917+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:56:18.931+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.333 seconds
+[2022-10-08T12:56:49.045+0000] {processor.py:156} INFO - Started process (PID=568) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:56:49.046+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:56:49.046+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:56:49.046+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:56:49.300+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:56:49.331+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:56:49.330+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:56:49.352+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:56:49.352+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:56:49.365+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.323 seconds
+[2022-10-08T12:57:19.479+0000] {processor.py:156} INFO - Started process (PID=601) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:57:19.480+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:57:19.480+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:57:19.480+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:57:19.738+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:57:19.769+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:57:19.768+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:57:19.790+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:57:19.790+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:57:19.804+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.327 seconds
+[2022-10-08T12:57:49.918+0000] {processor.py:156} INFO - Started process (PID=634) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:57:49.919+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:57:49.920+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:57:49.919+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:57:50.174+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:57:50.205+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:57:50.205+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:57:50.226+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:57:50.226+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:57:50.239+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.323 seconds
+[2022-10-08T12:58:20.352+0000] {processor.py:156} INFO - Started process (PID=668) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:58:20.353+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:58:20.353+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:58:20.353+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:58:20.610+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:58:20.641+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:58:20.641+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:58:20.662+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:58:20.662+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:58:20.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.326 seconds
+[2022-10-08T12:58:50.790+0000] {processor.py:156} INFO - Started process (PID=692) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:58:50.791+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:58:50.791+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:58:50.791+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:58:51.048+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:58:51.080+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:58:51.080+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:58:51.101+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:58:51.101+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:58:51.115+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.328 seconds
+[2022-10-08T12:59:21.231+0000] {processor.py:156} INFO - Started process (PID=725) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:59:21.232+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:59:21.233+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:59:21.233+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:59:21.492+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:59:21.524+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:59:21.524+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:59:21.545+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:59:21.545+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:59:21.559+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.331 seconds
+[2022-10-08T12:59:51.677+0000] {processor.py:156} INFO - Started process (PID=758) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:59:51.678+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T12:59:51.679+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:59:51.679+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:59:51.939+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T12:59:51.970+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:59:51.969+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T12:59:51.992+0000] {logging_mixin.py:117} INFO - [2022-10-08T12:59:51.992+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T12:59:52.006+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.331 seconds
+[2022-10-08T13:00:22.122+0000] {processor.py:156} INFO - Started process (PID=791) to work on /opt/airflow/dags/consumer_dag.py
+[2022-10-08T13:00:22.123+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/consumer_dag.py for tasks to queue
+[2022-10-08T13:00:22.124+0000] {logging_mixin.py:117} INFO - [2022-10-08T13:00:22.124+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T13:00:22.381+0000] {processor.py:768} INFO - DAG(s) dict_keys(['consumer_dag']) retrieved from /opt/airflow/dags/consumer_dag.py
+[2022-10-08T13:00:22.412+0000] {logging_mixin.py:117} INFO - [2022-10-08T13:00:22.412+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-08T13:00:22.434+0000] {logging_mixin.py:117} INFO - [2022-10-08T13:00:22.434+0000] {dag.py:3328} INFO - Setting next_dagrun for consumer_dag to 2022-10-07T00:00:00+00:00, run_after=2022-10-08T00:00:00+00:00
+[2022-10-08T13:00:22.448+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/consumer_dag.py took 0.328 seconds
